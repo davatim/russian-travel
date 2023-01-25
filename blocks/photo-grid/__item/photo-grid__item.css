@@ -1,12 +1,12 @@
 .photo-grid__item {
-    margin: 0;
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 320px) {
+  .photo-grid__item {
+    max-width: 288px;
+    max-height: 216px;
   }
-  @media (max-width: 320px) {
-    .photo-grid__item {
-      max-width: 288px;
-      max-height: 216px;
-    }
-  }
+}
