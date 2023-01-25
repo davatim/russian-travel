@@ -1,0 +1,29 @@
+.intro {
+    margin: 0 auto 92px 11.56%;
+    max-width: 690px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 1024px) {
+    .intro {
+      margin: 0 auto 92px 4.69%;
+      justify-content: left;
+    }
+  }
+  @media (max-width: 768px) {
+    .intro {
+      max-width: 720px;
+      margin: 0 3.13% 88px;
+      justify-content: left;
+    }
+  }
+  @media (max-width: 320px) {
+    .intro {
+      max-width: 288px;
+      margin: 0 5% 64px;
+      justify-content: left;
+    }
+  }

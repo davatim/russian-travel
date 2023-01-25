@@ -1,0 +1,11 @@
+.intro__list {
+    font-family: "Inter", "Arial", sans-serif;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+  
+  .intro__list_bold {
+    font-weight: 400;
+  }

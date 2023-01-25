@@ -1,0 +1,22 @@
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__link:nth-child(5n) {
+  padding-right: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 650px) {
+  .footer__link:nth-child(5n) {
+    padding-bottom: 48px;
+  }
+}
