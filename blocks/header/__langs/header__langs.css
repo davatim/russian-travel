@@ -8,9 +8,10 @@
   line-height: 28px;
   font-style: normal;
   text-align: right;
+  /* align-self: flex-start; */
 }
 @media (max-width: 320px) {
   .header__langs {
-    padding-top: 30px;
+    padding-bottom: 5px;
   }
 }
