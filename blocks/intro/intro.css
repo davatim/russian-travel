@@ -17,13 +17,11 @@
   .intro {
     max-width: 720px;
     margin: 0 3.13% 88px;
-    justify-content: left;
   }
 }
 @media (max-width: 320px) {
   .intro {
     max-width: 288px;
     margin: 0 5% 64px;
-    justify-content: left;
   }
 }

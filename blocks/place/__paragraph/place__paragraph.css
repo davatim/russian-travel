@@ -1,11 +1,11 @@
 .place__paragraph {
   margin: 0 0 26px;
-  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
 }
+
 @media screen and (max-width: 1130px) {
   .place__paragraph {
     margin: 0 0 27px;
@@ -21,6 +21,11 @@
 }
 @media screen and (max-width: 650px) {
   .place__paragraph {
-    padding: 0 16px;
+    padding: 0 16px 25px;
+    margin: 0 auto;
   }
+}
+.place__paragraph:last-child {
+  margin: 0;
+  padding: 0;
 }

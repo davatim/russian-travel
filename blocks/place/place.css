@@ -5,6 +5,7 @@
   gap: 48px 40px;
   margin: 0 11.56% 0;
 }
+
 @media screen and (max-width: 1130px) {
   .place {
     grid-template-columns: fit-content(440px) fit-content(456px);
@@ -27,14 +28,6 @@
     grid-template-rows: repeat(4, auto);
     gap: 32px;
     margin: 0 auto 0;
-    padding-bottom: 50px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .place {
-    grid-template-columns: fit-content(100%);
-    grid-template-rows: repeat(4, auto);
-    gap: 32px;
-    margin: 0 auto 0;
+    /* padding-bottom: 50px; */
   }
 }

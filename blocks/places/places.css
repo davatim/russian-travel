@@ -3,3 +3,8 @@
   flex-direction: column;
   row-gap: 80px;
 }
+@media screen and (max-width: 350px) {
+  .places{
+    row-gap: 50px;
+  }
+}
